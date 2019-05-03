@@ -15,7 +15,7 @@ module.exports = {
     'rules': {
         'indent': [
             'error',
-            4
+            2
         ],
         'linebreak-style': [
             'error',
@@ -30,20 +30,20 @@ module.exports = {
             'always'
         ],
         'camalCase': [
-            2
+          'error',
         ],
         'id-length': [
-            'error',
-            15   
+          "error",
+          { "min": 1 }
         ],
         'keyword-spacing': [
-            'error', 
+            'error',
             { 'after': true,
               'before': true
             }
         ],
         'space-infix-ops': [
-            'error', 
+            'error',
             { 'int32Hint': false}
         ],
         'comma-spacing': [
@@ -63,7 +63,7 @@ module.exports = {
         ],
         'afterColon': [
             true
-        ], 
+        ],
         'no-multi-spaces': [
             'error'
         ],
@@ -80,7 +80,7 @@ module.exports = {
             'never'
         ],
         'no-multiple-empty-lines': [
-            'error', 
+            'error',
             {'max': 0 }
         ],
         'padded-blocks': [
