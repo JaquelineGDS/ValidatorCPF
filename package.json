@@ -1,16 +1,17 @@
 {
   "name": "validatorcpf",
   "version": "1.0.0",
-  "description": "",
+  "description": "Biblioteca que tem como objetivo verificar se o CPF é valido ou inválido",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/nyc/bin/nyc.js ./node_modules/mocha/bin/mocha",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JaquelineGDS/ValidatorCPF.git"
   },
-  "author": "",
+  "author": "Jaqueline Guimarães dos Santos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JaquelineGDS/ValidatorCPF/issues"
