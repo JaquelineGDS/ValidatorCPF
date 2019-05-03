@@ -7,7 +7,7 @@ Na versão atual é capaz de verificar se um número de CPF é válido ou invali
 
 ```shell
 
-$  npm install validador-cpf-lib
+$  npm install validador-cpf
 
 ```
 
