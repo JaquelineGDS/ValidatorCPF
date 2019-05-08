@@ -1,6 +1,6 @@
 {
   "name": "validatorcpf",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Biblioteca que tem como objetivo verificar se o CPF é valido ou inválido",
   "main": "index.js",
   "scripts": {

@@ -7,7 +7,7 @@ Na versão atual é capaz de verificar se um número de CPF é válido ou invali
 
 ```shell
 
-$  npm install validadorcpf
+$  npm install validatorcpf
 
 ```
 
@@ -15,7 +15,7 @@ $  npm install validadorcpf
 
 ```node
 
-> const cpfValidator = require('validadorcpf');
+> const cpfValidator = require('validatorcpf');
 > console.log(cpfValidator.cpfValidator('289.499.132-08'))
 > // return "true"
 > console.log(cpfValidator.cpfValidator('28949913208'))

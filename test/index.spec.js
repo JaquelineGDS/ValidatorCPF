@@ -35,6 +35,5 @@ describe('Validator CPF lib', () => {
     });
     it('Return false para 442180498333', () => {
       expect(validator.cpfValidator('442180498333')).to.equal(false);
-    });
   });
 });
